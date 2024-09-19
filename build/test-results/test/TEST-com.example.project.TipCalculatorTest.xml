@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TipCalculatorTest" tests="3" skipped="0" failures="3" errors="0" timestamp="2024-09-19T13:20:27" hostname="codespaces-13d1f0" time="0.067">
+<testsuite name="com.example.project.TipCalculatorTest" tests="3" skipped="0" failures="3" errors="0" timestamp="2024-09-19T13:27:08" hostname="codespaces-13d1f0" time="0.082">
   <properties/>
-  <testcase name="testCalculateTip2()" classname="com.example.project.TipCalculatorTest" time="0.054">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $566.97&#10;Total percentage: 15%&#10;Total tip: $85.05&#10;Total Bill with tip: $652.02&#10;Per person cost before tip: $47.25&#10;Tip per person: $7.09&#10;Total cost per person: $54.33&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: 566.97&#10;Total percentage: 15 % &#10;Total tip: 85.05&#10;Total Bill with tip: 652.02&#10;Per person cost before tip: 47.25&#10;Tip per person: 7.09&#10;Total cost per person: 54.34&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
+  <testcase name="testCalculateTip2()" classname="com.example.project.TipCalculatorTest" time="0.068">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $566.97&#10;Total percentage: 15%&#10;Total tip: $85.05&#10;Total Bill with tip: $652.02&#10;Per person cost before tip: $47.25&#10;Tip per person: $7.09&#10;Total cost per person: $54.33&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: $566.97&#10;Total percentage: $15 % &#10;Total tip: $85.05&#10;Total Bill with tip: $652.02&#10;Per person cost before tip: $47.25&#10;Tip per person: $7.09&#10;Total cost per person: $54.34&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
 Total bill before tip: $566.97
 Total percentage: 15%
 Total tip: $85.05
@@ -12,13 +12,13 @@ Tip per person: $7.09
 Total cost per person: $54.33
 -------------------------------
 &gt; but was: &lt;-------------------------------
-Total bill before tip: 566.97
-Total percentage: 15 % 
-Total tip: 85.05
-Total Bill with tip: 652.02
-Per person cost before tip: 47.25
-Tip per person: 7.09
-Total cost per person: 54.34
+Total bill before tip: $566.97
+Total percentage: $15 % 
+Total tip: $85.05
+Total Bill with tip: $652.02
+Per person cost before tip: $47.25
+Tip per person: $7.09
+Total cost per person: $54.34
 -------------------------------
 &gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -113,8 +113,8 @@ Total cost per person: 54.34
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testCalculateTip3()" classname="com.example.project.TipCalculatorTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $29.56&#10;Total percentage: 5%&#10;Total tip: $1.48&#10;Total Bill with tip: $31.04&#10;Per person cost before tip: $14.78&#10;Tip per person: $0.74&#10;Total cost per person: $15.52&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: 29.56&#10;Total percentage: 5 % &#10;Total tip: 1.48&#10;Total Bill with tip: 31.04&#10;Per person cost before tip: 14.78&#10;Tip per person: 0.74&#10;Total cost per person: 15.52&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
+  <testcase name="testCalculateTip3()" classname="com.example.project.TipCalculatorTest" time="0.007">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $29.56&#10;Total percentage: 5%&#10;Total tip: $1.48&#10;Total Bill with tip: $31.04&#10;Per person cost before tip: $14.78&#10;Tip per person: $0.74&#10;Total cost per person: $15.52&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: $29.56&#10;Total percentage: $5 % &#10;Total tip: $1.48&#10;Total Bill with tip: $31.04&#10;Per person cost before tip: $14.78&#10;Tip per person: $0.74&#10;Total cost per person: $15.52&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
 Total bill before tip: $29.56
 Total percentage: 5%
 Total tip: $1.48
@@ -124,13 +124,13 @@ Tip per person: $0.74
 Total cost per person: $15.52
 -------------------------------
 &gt; but was: &lt;-------------------------------
-Total bill before tip: 29.56
-Total percentage: 5 % 
-Total tip: 1.48
-Total Bill with tip: 31.04
-Per person cost before tip: 14.78
-Tip per person: 0.74
-Total cost per person: 15.52
+Total bill before tip: $29.56
+Total percentage: $5 % 
+Total tip: $1.48
+Total Bill with tip: $31.04
+Per person cost before tip: $14.78
+Tip per person: $0.74
+Total cost per person: $15.52
 -------------------------------
 &gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
@@ -225,8 +225,8 @@ Total cost per person: 15.52
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testCalculateTip()" classname="com.example.project.TipCalculatorTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $52.27&#10;Total percentage: 25%&#10;Total tip: $13.07&#10;Total Bill with tip: $65.34&#10;Per person cost before tip: $8.71&#10;Tip per person: $2.18&#10;Total cost per person: $10.89&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: 52.27&#10;Total percentage: 25 % &#10;Total tip: 13.07&#10;Total Bill with tip: 65.34&#10;Per person cost before tip: 8.71&#10;Tip per person: 2.18&#10;Total cost per person: 10.89&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
+  <testcase name="testCalculateTip()" classname="com.example.project.TipCalculatorTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------&#10;Total bill before tip: $52.27&#10;Total percentage: 25%&#10;Total tip: $13.07&#10;Total Bill with tip: $65.34&#10;Per person cost before tip: $8.71&#10;Tip per person: $2.18&#10;Total cost per person: $10.89&#10;-------------------------------&#10;&gt; but was: &lt;-------------------------------&#10;Total bill before tip: $52.27&#10;Total percentage: $25 % &#10;Total tip: $13.07&#10;Total Bill with tip: $65.34&#10;Per person cost before tip: $8.71&#10;Tip per person: $2.18&#10;Total cost per person: $10.89&#10;-------------------------------&#10;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-------------------------------
 Total bill before tip: $52.27
 Total percentage: 25%
 Total tip: $13.07
@@ -236,13 +236,13 @@ Tip per person: $2.18
 Total cost per person: $10.89
 -------------------------------
 &gt; but was: &lt;-------------------------------
-Total bill before tip: 52.27
-Total percentage: 25 % 
-Total tip: 13.07
-Total Bill with tip: 65.34
-Per person cost before tip: 8.71
-Tip per person: 2.18
-Total cost per person: 10.89
+Total bill before tip: $52.27
+Total percentage: $25 % 
+Total tip: $13.07
+Total Bill with tip: $65.34
+Per person cost before tip: $8.71
+Tip per person: $2.18
+Total cost per person: $10.89
 -------------------------------
 &gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
