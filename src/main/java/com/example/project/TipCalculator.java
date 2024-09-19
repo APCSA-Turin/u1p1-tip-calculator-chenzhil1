@@ -13,7 +13,7 @@ public class TipCalculator {
         double totalPerson = Math.round((totalBill / (double) people) * 100) / 100.0;
         result.append("-------------------------------\n");
         result.append("Total bill before tip: $" + cost + "\n"); //concatenate to this string. DO NOT ERASE AND REWRITE
-        result.append("Total percentage: $" + percent + "% \n");
+        result.append("Total percentage: " + percent + "% \n");
         result.append("Total tip: $" +  + tip + "\n");
         result.append("Total Bill with tip: $" + totalBill + "\n");
         result.append("Per person cost before tip: $" + costPerson + "\n");
